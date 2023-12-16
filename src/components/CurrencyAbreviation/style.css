@@ -1,0 +1,15 @@
+.currency-abreviation {
+  font-weight: 600;
+  opacity: 0.5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.currency-abreviation-primary {
+  color: #fff;
+}
+
+.currency-abreviation-secondary {
+  color: #ff5152;
+}
