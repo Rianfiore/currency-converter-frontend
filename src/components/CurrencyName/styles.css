@@ -1,0 +1,27 @@
+.currency-name {
+  font-size: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  background-color: transparent;
+  transition: all .1s ease-in-out;
+}
+
+.currency-name:active {
+  transform: scale(0.95);
+}
+
+
+.currency-name:hover {
+  cursor: pointer;
+}
+
+.currency-name-primary {
+  color: #fff;
+  border: 1px solid #fff;
+
+}
+
+.currency-name-secondary {
+  color: #ff5152;
+  border: 1px solid #ff5152;
+}
