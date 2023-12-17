@@ -1,15 +1,26 @@
 import { useState } from "react";
+import "./styles.css";
+import { ArrowDown } from "lucide-react";
 
 export function ConvertButton() {
-  const [isClicked, setIsClicked] = useState(false);
+  const [isConverted, setIsConverted] = useState(false);
   return (
-    <button
+    <span
+      className={`convert-button convert-button${
+        isConverted ? "--is-converted" : ""
+      } `}
       onClick={() => {
-        setIsClicked(!isClicked);
+        setIsConverted(!isConverted);
       }}
     >
-      {isClicked ? "Terminar" : "Começar"}
-    </button>
+      <span
+        className={`convert-button-icon convert-button-icon${
+          isConverted ? "--is-converted" : ""
+        } `}
+      >
+        <ArrowDown size={80} color="#ff5152" />
+      </span>
+    </span>
   );
 }
 
