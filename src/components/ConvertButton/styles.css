@@ -1,0 +1,21 @@
+.convert-button {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  width: fit-content;
+  border-radius: 100%;
+  align-self: center;
+  border: 7px solid #ff5152;
+}
+
+.convert-button:hover {
+  cursor: pointer;
+}
+
+.convert-button-icon {
+  transform: rotate(-90deg);
+}
+
+.convert-button-icon--is-converted {
+  transform: rotate(0);
+}

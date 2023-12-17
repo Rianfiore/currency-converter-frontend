@@ -1,6 +1,9 @@
 main {
+  height: 100%;
   display: flex;
+  justify-content: center;
   flex-direction: column;
+
 }
 
 section {
@@ -8,13 +11,37 @@ section {
   flex-direction: column;
   gap: 30px;
   padding: 20px;
+}
 
+.top-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100%;
+  margin-bottom: 50px;
+}
+
+.bottom-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100%;
+  margin-top: 50px;
+}
+
+
+.convert-button-section {
+  position: absolute;
 }
 
 .background-top {
   background-color: #ff5152;
+  height: 50vh;
+  justify-content: space-around;
 }
 
 .background-bottom {
   background-color: #fff;
+  height: 50vh;
+  justify-content: space-around;
 }
