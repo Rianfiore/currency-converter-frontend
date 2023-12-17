@@ -1,5 +1,5 @@
-import { CurrencyAbreviationProps } from "./type";
-import "./style.css";
+import { CurrencyAbreviationProps } from "./types";
+import "./styles.css";
 
 export function CurrencyAbreviation(props: CurrencyAbreviationProps) {
   return (
